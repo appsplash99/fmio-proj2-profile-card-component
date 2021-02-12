@@ -91,13 +91,22 @@ p {
 /* mobile view */
 @media (max-width: 375px) {
   body {
-    margin: 10px;
+    
     /* width: 100%; */
   }
+  body {
+    margin: 0px;
+    padding: 20px;
+    /* background */
+    /* background-size: width height, width height; */
+    background-size: 600px, 600px;
+    background-position: left -420px top -55vh, right -420px bottom -40vh;
+    
+  }
   .card {
-    max-width: 340px;
+    max-width: 320px;
   }
   .card-top-image {
-    max-width: 340px;
+    max-width: 320px;
   }
 }
