@@ -17,12 +17,10 @@ body {
   /* background */
   background-color: var(--dark-cyan);
   /* backgroung-image: top-image, bottom-image */
-  background-image: url("./static/images/bg-pattern-top.svg"),
-                    url("./static/images/bg-pattern-bottom.svg");
+  /* background-image: url (According to current directory structure)  */
+  background-image: url('../../static/images/bg-pattern-top.svg'), url("../../static/images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   /* background-size: width height, width height; */
-  /* background-size: 800px, 600px;
-  background-position: left 0em top -5em, right bottom; */
   background-size: 850px, 850px;
   background-position: left -100px top -55vh, right -100px bottom -65vh;
   
@@ -90,10 +88,6 @@ p {
 
 /* mobile view */
 @media (max-width: 375px) {
-  body {
-    
-    /* width: 100%; */
-  }
   body {
     margin: 0px;
     padding: 20px;
